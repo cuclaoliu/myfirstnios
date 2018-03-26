@@ -1,0 +1,33 @@
+20:43:20 **** Incremental Build of configuration Nios II for project leds_bsp ****
+make all 
+[BSP build complete]
+20:43:25 **** Incremental Build of configuration Nios II for project leds ****
+make all 
+Info: Building ../leds_bsp/
+C:/intelFPGA/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../leds_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../leds_bsp//HAL/inc -I../leds_bsp/ -I../leds_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:6:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Hello from Nios II!\n");
+     ^
+hello_world.c:6:5: warning: incompatible implicit declaration of built-in function 'printf'
+hello_world.c:6:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Info: Linking leds.elf
+nios2-elf-g++  -T'../leds_bsp//linker.x' -msys-crt0='../leds_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../leds_bsp/   -Wl,-Map=leds.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o leds.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert leds.elf --thread_model hal --cpu_name nios2_gen2 --qsys true --simulation_enabled false --id 1702376594 --sidp 0x21068 --timestamp 1522061802 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name nios_core --quartus_project_dir "D:/soc/myfirstnios" --jdi ../..//output_files/myfirstnios.jdi --sopcinfo D:/soc/myfirstnios/software/leds_bsp/../../nios_core.sopcinfo
+Info: (leds.elf) 29 KBytes program size (code + initialized data).
+Info:            27 KBytes free for stack + heap.
+Info: Creating leds.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source leds.elf >leds.objdump
+[leds build complete]
+20:43:56 **** Incremental Build of configuration Nios II for project leds_bsp ****
+make all 
+[BSP build complete]
+20:44:00 **** Incremental Build of configuration Nios II for project leds ****
+make all 
+Info: Building ../leds_bsp/
+C:/intelFPGA/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../leds_bsp/
+[BSP build complete]
+[leds build complete]

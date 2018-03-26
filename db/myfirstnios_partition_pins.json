@@ -1,0 +1,737 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LEDG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_GTX_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_MDC",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RST_N",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_EN",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_ER",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_GTX_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_MDC",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RST_N",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_EN",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_ER",
+					"strict" : false
+				},
+				{
+					"name" : "TD_RESET_N",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_CLKOUT_P1",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_CLKOUT_P2",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_CLKOUT0",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[8]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[10]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[11]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[12]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[13]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[14]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[15]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_TX_D_P[16]",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_DAT",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_CLK2",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_DAT2",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[7]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[8]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[9]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[10]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[11]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[12]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[13]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[14]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[15]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[16]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[17]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[18]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[19]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[20]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[21]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[22]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[23]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[24]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[25]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[26]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[27]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[28]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[29]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[30]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[31]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[32]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[33]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[34]",
+					"strict" : false
+				},
+				{
+					"name" : "GPIO[35]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_INT_N",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_COL",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_CRS",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_RX_ER",
+					"strict" : false
+				},
+				{
+					"name" : "ENET0_TX_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_INT_N",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_COL",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_CRS",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_RX_ER",
+					"strict" : false
+				},
+				{
+					"name" : "ENET1_TX_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "TD_VS",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_CLKIN_P1",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_CLKIN_P2",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_CLKIN0",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[7]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[8]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[10]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[11]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[12]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[13]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[14]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[15]",
+					"strict" : false
+				},
+				{
+					"name" : "HSMC_RX_D_P[16]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_CLK27",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "TD_HS",
+					"strict" : false
+				},
+				{
+					"name" : "FL_RY",
+					"strict" : false
+				},
+				{
+					"name" : "SW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[4]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
